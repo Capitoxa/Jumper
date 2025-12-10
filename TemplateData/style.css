@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#unity-container { 
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-width: 720px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#unity-canvas 
+{ 
+	background: #08000F;
+    display: block;
+}
+#unity-loading-root {width: 100%; height: 100%; display: none;}
+#unity-logo 
+{ 
+    width: 390px;
+    height: 239px;
+    top: 10%;
+    background: url('UI-HamsterPartyLogo.png') no-repeat center;
+	background-size: 195px 120px;
+    display: block;
+    position: absolute;
+	top: calc(7% - 60px);
+    left: calc(50% - 195px);
+}
+#unity-game-logo 
+{ 
+	width: 300px; 
+	height: 293px; 
+	background: url('ezgif.loading_sand_clock.png') no-repeat center;
+	background-size: 250px 244px;
+	display: block;
+    position: absolute;
+	top: calc(45% - 150px);
+    left: calc(50% - 150px);
+}
+#unity-game-label 
+{ 
+	width: 226px; 
+	height: 43px; 
+	background: url('imag_T.png') no-repeat center;
+	background-size: 226px; 43px;
+	display: block;
+    position: absolute;
+	bottom: 20%;
+    left: calc(50% - 110px);
+}
+#unity-loading-bar { position: absolute; left: 50%; bottom: 1%; transform: translate(-50%, -50%);}
+#unity-progress-bar-empty { 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 207px; 
+    height: 29px; 
+    background: url('UI-ProgressBar_Empty.png') no-repeat;
+	border-image-slice: 30 fill;
+}
+#unity-progress-bar-full {
+    display: block;
+    height: 17px;
+    background-color: #5DEF34;
+    transform: translate(5px, 6px);
+    margin-right: 10px;
+}
+#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#unity-project-version {
+	position: absolute;
+	right: 5%;
+	bottom: 2%;
+	transform-origin: right center; /* pivot = middle right */
+	font-weight: bold;
+	color: white;
+}
+#qr_code {position: absolute; top: 10%; display: none; width: 100%; }
+#tutorial-container {
+    position: fixed;
+    max-width: 720px;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #0035FF, #00B7FF);
+    z-index: 9999;
+}
+
+#tutorial-container img {
+    max-width: 100%;
+    height: 100%;
+}
+
+#tutorial-container p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+#progress-sprite {
+    position: absolute;
+    top: 50%;
+    left: 0%;           /* start at 0% */
+    transform: translate(0%, -50%); /* center it on the bar */
+    width: 20px;         /* sprite size */
+    height: 20px;
+}
