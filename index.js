@@ -66,7 +66,7 @@ window.addEventListener("load", function () {
     document.getElementsByTagName('head')[0].appendChild(meta);
   }
 
-  loadingRoot.style.display = "block";
+  //loadingRoot.style.display = "block";
 
 	// Tutorial slideshow logic
 	/* const tutorialImages = [
@@ -167,3 +167,4 @@ window.addEventListener("load", resizeUnityCanvas);
   document.body.appendChild(script);
 
   
+
