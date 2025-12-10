@@ -137,7 +137,7 @@ window.addEventListener("load", resizeUnityCanvas);
 	  
 	  document.getElementById("tutorial-container").style.display = "none";
 	  
-	  loadingRoot.style.display = "none";
+	  //loadingRoot.style.display = "none";
 
 	  /* window.Telegram.WebApp.onEvent('activated', () => {
 		unityInstanceRef.Module.SendMessage("SoundManager(Clone)", "UnmuteAll");
@@ -165,4 +165,5 @@ window.addEventListener("load", resizeUnityCanvas);
 	});
   };
   document.body.appendChild(script);
+
   
