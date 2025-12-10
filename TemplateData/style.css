@@ -28,7 +28,7 @@ body {
     width: 390px;
     height: 239px;
     top: 10%;
-    background: url('UI-HamsterPartyLogo.png') no-repeat center;
+    background: url('UI-JumperLogo.png') no-repeat center;
 	background-size: 195px 120px;
     display: block;
     position: absolute;
@@ -111,4 +111,5 @@ body {
     transform: translate(0%, -50%); /* center it on the bar */
     width: 20px;         /* sprite size */
     height: 20px;
+
 }
