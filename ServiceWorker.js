@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-Jumper-1.0.9";
+const cacheName = "DefaultCompany-Jumper-1.0.10";
 const contentToCache = [
-    "Build/7bd6b010df2a139750adf907c1ee8bde.loader.js",
-    "Build/7ca4243d05def46c18c6f05ea968cfaf.framework.js.gz",
-    "Build/d9cc3d1026e3239e143ba3d707001258.data.gz",
-    "Build/22c1cd600aac634c1d0b7aba84e478d3.wasm.gz",
+    "Build/e9721bd3241efdd2255f2bac0850c3a6.loader.js",
+    "Build/0efaa950c6acf51a27a91b44b9e3704b.framework.js.gz",
+    "Build/e55fd25acc9cc1c3d087e3274e79ce30.data.gz",
+    "Build/4049e94397bb799502e8d1856a27dc5f.wasm.gz",
     "TemplateData/style.css"
 
 ];
