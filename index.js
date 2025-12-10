@@ -39,15 +39,15 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/5bc3bd75e437661009bffc9c65a07688.loader.js";
+  var loaderUrl = buildUrl + "/a2c30561fd31b4a365b2e88fd5129ef6.loader.js";
   var config = {
-    dataUrl: buildUrl + "/96034438b88fa99a579cd3feedd90e00.data.gz",
-    frameworkUrl: buildUrl + "/89151c9c076371c748db7576ca2bf49e.framework.js.gz",
-    codeUrl: buildUrl + "/74f3f76d96fb6c301e4192b6c2662dee.wasm.gz",
+    dataUrl: buildUrl + "/769a4f3646b379b956e08266c8cd68a2.data.gz",
+    frameworkUrl: buildUrl + "/117a288ff998eb8ca8f1537007370af2.framework.js.gz",
+    codeUrl: buildUrl + "/224e114ac36df875279cb5eebdca64a6.wasm.gz",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Jumper",
-    productVersion: "1.0.4",
+    productVersion: "1.0.6",
     showBanner: unityShowBanner,
   };
 
@@ -165,6 +165,4 @@ window.addEventListener("load", resizeUnityCanvas);
 	});
   };
   document.body.appendChild(script);
-
   
-
