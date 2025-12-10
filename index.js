@@ -41,13 +41,13 @@ window.addEventListener("load", function () {
   var buildUrl = "Build";
   var loaderUrl = buildUrl + "/5bc3bd75e437661009bffc9c65a07688.loader.js";
   var config = {
-    dataUrl: buildUrl + "/8238488af59e85814e9b6b6691f275a5.data.gz",
+    dataUrl: buildUrl + "/96034438b88fa99a579cd3feedd90e00.data.gz",
     frameworkUrl: buildUrl + "/89151c9c076371c748db7576ca2bf49e.framework.js.gz",
     codeUrl: buildUrl + "/74f3f76d96fb6c301e4192b6c2662dee.wasm.gz",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Jumper",
-    productVersion: "1.0.3",
+    productVersion: "1.0.4",
     showBanner: unityShowBanner,
   };
 
